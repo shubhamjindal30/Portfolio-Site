@@ -1,0 +1,128 @@
+body {
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+
+hr {
+    border-top: 4px;
+    border-top-style: solid;
+    border-color: darkgray;
+}
+
+h2 {
+    color: #bbb;
+}
+
+.profile {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+.pro-name {
+    font-weight: 100;
+    font-size: 4em;
+}
+
+.pro-job {
+    color: #666756;
+    margin: 5px;
+    font-size: 1.7em;
+}
+
+.github-pic {
+    border: 2px solid black;
+}
+
+.project {
+    text-align: center;
+    color: #666756;
+}
+
+.foot {
+    padding-top: 45px;
+    font-size: 1.3em;
+    color: #666756;
+}
+
+.name {
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .pro-pic {
+        display: block;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .profile {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .pro-name {
+        font-size: 4.5em;
+    }
+    
+    .pro-job {
+        margin: 5px;
+        font-size: 3.2em;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    body {
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .profile {
+        text-align: center;
+    }
+
+    .pro-pic {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        padding-top: 10px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    
+    .pro-pic {
+        display: block;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .profile {
+        text-align: center;
+        margin: 10px;
+    }
+    
+    .pro-name {
+        font-size: 3em;
+    }
+    
+    .pro-job {
+        margin: 5px;
+        font-size: 2em;
+    }
+}
